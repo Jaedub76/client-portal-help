@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HMIS Client Portal Training Videos</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMIS Customer Portal Training Videos</title>
 
     <style>
-        body{
+        body {
             font-family: Arial, sans-serif;
             max-width: 1000px;
             margin: auto;
@@ -14,11 +14,17 @@
             background-color: #f4f4f4;
         }
 
-        h1{
+        h1 {
             color: #003366;
+            margin-bottom: 10px;
         }
 
-        .video-card{
+        .intro {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .video-card {
             background: white;
             padding: 20px;
             margin-bottom: 25px;
@@ -26,50 +32,63 @@
             box-shadow: 0 2px 5px rgba(0,0,0,.15);
         }
 
-        video{
-            width:100%;
-            max-width:900px;
+        .video-card h2 {
+            color: #003366;
+            margin-top: 0;
+        }
+
+        .watch-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 18px;
+            background: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .watch-link:hover {
+            background: #00509e;
+        }
+
+        .note {
+            margin-top: 10px;
+            color: #555;
+            font-size: 14px;
         }
     </style>
-
 </head>
-
 <body>
 
-<h1>HMIS Client Portal Training Videos</h1>
+    <h1>HMIS Customer Portal Training Videos</h1>
 
-<p>
-Welcome to the HMIS Client Portal Training Center.
-Select a video below to learn more about the Client Portal.
-</p>
-
-<div class="video-card">
-
-    <h2>What is the Client Portal?</h2>
-
-    <p>
-    Learn what the HMIS Client Portal is and how it can help you access and manage your information.
+    <p class="intro">
+        Welcome to the HMIS Customer Portal Training Center.
+        Select a video below to learn more about the Customer Portal.
     </p>
 
-    <video controls>
-        <source src="what-is-client-portal.mp4" type="video/mp4">
-    </video>
+    <div class="video-card">
+        <h2>What is the Customer Portal?</h2>
+        <p>
+            Learn what the HMIS Customer Portal is and how it can help you access and manage your information.
+        </p>
+        <a class="watch-link" href="what-is-customer-portal.mp4" target="_blank" rel="noopener">
+            Watch Video
+        </a>
+        <div class="note">Opens the video in a new tab.</div>
+    </div>
 
-</div>
-
-<div class="video-card">
-
-    <h2>How to Access the Client Portal</h2>
-
-    <p>
-    Step-by-step instructions for creating an account and signing into the HMIS Client Portal.
-    </p>
-
-    <video controls>
-        <source src="how-to-access-client-portal.mp4" type="video/mp4">
-    </video>
-
-</div>
+    <div class="video-card">
+        <h2>How to Access the Customer Portal</h2>
+        <p>
+            Step-by-step instructions for creating an account and signing into the HMIS Customer Portal.
+        </p>
+        <a class="watch-link" href="how-to-access-customer-portal.mp4" target="_blank" rel="noopener">
+            Watch Video
+        </a>
+        <div class="note">Opens the video in a new tab.</div>
+    </div>
 
 </body>
 </html>
